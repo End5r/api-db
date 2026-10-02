@@ -1,10 +1,30 @@
-[
-    {
-        "name": "Ronaldo",
-        "id": 3
-    },
-    {
-        "name": "Messi",
-        "id": 2
-    }
-]
+{
+    "Player": [
+        {
+            "name": "Ronaldo",
+            "id": 1
+        },
+        {
+            "name": "Messi",
+            "id": 2
+        },
+        {
+            "name": "Klos",
+            "id": 3
+        },
+        {
+            "name": "Sneijder",
+            "id": 4
+        },
+        {
+            "name": "Haaland",
+            "id": 5
+        }
+    ],
+    "Club": [
+        {
+            "name": "PSG",
+            "club_id": 1
+        }
+    ]
+}
