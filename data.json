@@ -1,39 +1,4 @@
 {
-    "Player": [
-        {
-            "name": "Ronaldo",
-            "id": 1
-        },
-        {
-            "name": "Messi",
-            "id": 2
-        },
-        {
-            "name": "Klos",
-            "id": 3
-        },
-        {
-            "name": "Sneijder",
-            "id": 4
-        },
-        {
-            "name": "Haaland",
-            "id": 5
-        },
-        {
-            "name": "Marcelo",
-            "club_id": 2,
-            "id": 6
-        }
-    ],
-    "Club": [
-        {
-            "name": "PSG",
-            "club_id": 1
-        },
-        {
-            "name": "REAL MADRID",
-            "club_id": 2
-        }
-    ]
+    "Player": [],
+    "Club": []
 }
