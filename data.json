@@ -19,12 +19,21 @@
         {
             "name": "Haaland",
             "id": 5
+        },
+        {
+            "name": "Marcelo",
+            "club_id": 2,
+            "id": 6
         }
     ],
     "Club": [
         {
             "name": "PSG",
             "club_id": 1
+        },
+        {
+            "name": "REAL MADRID",
+            "club_id": 2
         }
     ]
 }

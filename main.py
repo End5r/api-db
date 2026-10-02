@@ -8,12 +8,23 @@ app = FastAPI()
 
 class Player(BaseModel):
     name: str
-    # id: Optional[int] = None
     club_id: int
 
 class Club(BaseModel):
     name:str
-    # club_id: Optional[int] = None
+
+@app.get("/player/{id}")
+def read_player(id: int):
+    player = getEntity(get_players(), id, "id")
+    club = getEntity(get_club(), player["club_id"], "club_id")
+
+    return {"message": f"{player["name"]} plays at {club["name"]}"}
+    
+def getEntity(list: list, id: int, key: str):
+    for l in list:
+        if l[key] == id:
+            return l
+    raise HTTPException(status_code=404, detail= "Entity not found")
 
 @app.get("/")
 def get_all():
